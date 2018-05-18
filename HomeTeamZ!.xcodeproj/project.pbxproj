@@ -8,11 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		DA81C10E20AA8F5E00061E78 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA81C10D20AA8F5E00061E78 /* AppDelegate.swift */; };
-		DA81C11020AA8F5E00061E78 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA81C10F20AA8F5E00061E78 /* ViewController.swift */; };
 		DA81C11320AA8F5E00061E78 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA81C11120AA8F5E00061E78 /* Main.storyboard */; };
 		DA81C11620AA8F5E00061E78 /* HomeTeamZ_.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DA81C11420AA8F5E00061E78 /* HomeTeamZ_.xcdatamodeld */; };
 		DA81C11820AA8F6400061E78 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA81C11720AA8F6400061E78 /* Assets.xcassets */; };
 		DA81C11B20AA8F6400061E78 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA81C11920AA8F6400061E78 /* LaunchScreen.storyboard */; };
+		DA8F55BD20AD1C1400D14EF5 /* ChatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA8F55BC20AD1C1400D14EF5 /* ChatVC.swift */; };
+		DA8F55BF20AD1C3500D14EF5 /* ChannelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA8F55BE20AD1C3500D14EF5 /* ChannelVC.swift */; };
 		DAD5DEBF20AA96BE00B842CC /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DAD5DEBD20AA96BE00B842CC /* SWRevealViewController.m */; };
 		EEDD6697031A442FCFAD886E /* Pods_HomeTeamZ_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49670406E7D993B043692AC9 /* Pods_HomeTeamZ_.framework */; };
 /* End PBXBuildFile section */
@@ -23,12 +24,13 @@
 		B79372BC12AD63BFA9E17E2E /* Pods-HomeTeamZ!.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HomeTeamZ!.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HomeTeamZ!/Pods-HomeTeamZ!.debug.xcconfig"; sourceTree = "<group>"; };
 		DA81C10A20AA8F5E00061E78 /* HomeTeamZ!.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HomeTeamZ!.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA81C10D20AA8F5E00061E78 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DA81C10F20AA8F5E00061E78 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DA81C11220AA8F5E00061E78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DA81C11520AA8F5E00061E78 /* HomeTeamZ_.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HomeTeamZ_.xcdatamodel; sourceTree = "<group>"; };
 		DA81C11720AA8F6400061E78 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DA81C11A20AA8F6400061E78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DA81C11C20AA8F6400061E78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA8F55BC20AD1C1400D14EF5 /* ChatVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatVC.swift; sourceTree = "<group>"; };
+		DA8F55BE20AD1C3500D14EF5 /* ChannelVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelVC.swift; sourceTree = "<group>"; };
 		DAD5DEBC20AA96BB00B842CC /* HomeTeamZ!-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HomeTeamZ!-Bridging-Header.h"; sourceTree = "<group>"; };
 		DAD5DEBD20AA96BE00B842CC /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
 		DAD5DEBE20AA96BE00B842CC /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
@@ -84,9 +86,10 @@
 		DA81C10C20AA8F5E00061E78 /* HomeTeamZ! */ = {
 			isa = PBXGroup;
 			children = (
+				DA8F55BB20AD1BF200D14EF5 /* Model */,
 				DAD5DEBB20AA966500B842CC /* Supporting Files */,
 				DA81C10D20AA8F5E00061E78 /* AppDelegate.swift */,
-				DA81C10F20AA8F5E00061E78 /* ViewController.swift */,
+				DA8F55BA20AD1B0200D14EF5 /* Controllers */,
 				DA81C11120AA8F5E00061E78 /* Main.storyboard */,
 				DA81C11720AA8F6400061E78 /* Assets.xcassets */,
 				DA81C11920AA8F6400061E78 /* LaunchScreen.storyboard */,
@@ -94,6 +97,22 @@
 				DA81C11420AA8F5E00061E78 /* HomeTeamZ_.xcdatamodeld */,
 			);
 			path = "HomeTeamZ!";
+			sourceTree = "<group>";
+		};
+		DA8F55BA20AD1B0200D14EF5 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				DA8F55BC20AD1C1400D14EF5 /* ChatVC.swift */,
+				DA8F55BE20AD1C3500D14EF5 /* ChannelVC.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		DA8F55BB20AD1BF200D14EF5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		DAD5DEBB20AA966500B842CC /* Supporting Files */ = {
@@ -225,10 +244,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DA81C11020AA8F5E00061E78 /* ViewController.swift in Sources */,
+				DA8F55BD20AD1C1400D14EF5 /* ChatVC.swift in Sources */,
 				DA81C10E20AA8F5E00061E78 /* AppDelegate.swift in Sources */,
 				DA81C11620AA8F5E00061E78 /* HomeTeamZ_.xcdatamodeld in Sources */,
 				DAD5DEBF20AA96BE00B842CC /* SWRevealViewController.m in Sources */,
+				DA8F55BF20AD1C3500D14EF5 /* ChannelVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
