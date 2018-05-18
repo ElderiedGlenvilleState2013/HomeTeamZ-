@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DA5E82B620AE8BFF009B1C17 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA5E82B520AE8BFF009B1C17 /* GradientView.swift */; };
 		DA81C10E20AA8F5E00061E78 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA81C10D20AA8F5E00061E78 /* AppDelegate.swift */; };
 		DA81C11320AA8F5E00061E78 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA81C11120AA8F5E00061E78 /* Main.storyboard */; };
 		DA81C11620AA8F5E00061E78 /* HomeTeamZ_.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DA81C11420AA8F5E00061E78 /* HomeTeamZ_.xcdatamodeld */; };
@@ -22,6 +23,7 @@
 		49670406E7D993B043692AC9 /* Pods_HomeTeamZ_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HomeTeamZ_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C4C8276F00C57C35C33A908 /* Pods-HomeTeamZ!.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HomeTeamZ!.release.xcconfig"; path = "Pods/Target Support Files/Pods-HomeTeamZ!/Pods-HomeTeamZ!.release.xcconfig"; sourceTree = "<group>"; };
 		B79372BC12AD63BFA9E17E2E /* Pods-HomeTeamZ!.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HomeTeamZ!.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HomeTeamZ!/Pods-HomeTeamZ!.debug.xcconfig"; sourceTree = "<group>"; };
+		DA5E82B520AE8BFF009B1C17 /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 		DA81C10A20AA8F5E00061E78 /* HomeTeamZ!.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HomeTeamZ!.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA81C10D20AA8F5E00061E78 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DA81C11220AA8F5E00061E78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -65,6 +67,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		DA5E82B420AE8BB3009B1C17 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DA5E82B520AE8BFF009B1C17 /* GradientView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		DA81C10120AA8F5E00061E78 = {
 			isa = PBXGroup;
 			children = (
@@ -86,6 +96,7 @@
 		DA81C10C20AA8F5E00061E78 /* HomeTeamZ! */ = {
 			isa = PBXGroup;
 			children = (
+				DA5E82B420AE8BB3009B1C17 /* View */,
 				DA8F55BB20AD1BF200D14EF5 /* Model */,
 				DAD5DEBB20AA966500B842CC /* Supporting Files */,
 				DA81C10D20AA8F5E00061E78 /* AppDelegate.swift */,
@@ -246,6 +257,7 @@
 			files = (
 				DA8F55BD20AD1C1400D14EF5 /* ChatVC.swift in Sources */,
 				DA81C10E20AA8F5E00061E78 /* AppDelegate.swift in Sources */,
+				DA5E82B620AE8BFF009B1C17 /* GradientView.swift in Sources */,
 				DA81C11620AA8F5E00061E78 /* HomeTeamZ_.xcdatamodeld in Sources */,
 				DAD5DEBF20AA96BE00B842CC /* SWRevealViewController.m in Sources */,
 				DA8F55BF20AD1C3500D14EF5 /* ChannelVC.swift in Sources */,
