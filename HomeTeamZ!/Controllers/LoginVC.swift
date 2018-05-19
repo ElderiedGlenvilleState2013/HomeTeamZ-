@@ -1,29 +1,28 @@
 //
-//  ChannelVC.swift
+//  LoginVC.swift
 //  HomeTeamZ!
 //
-//  Created by McKinney family  on 5/16/18.
+//  Created by McKinney family  on 5/19/18.
 //  Copyright © 2018 FasTek Technologies. All rights reserved.
 //
 
 import UIKit
 
-class ChannelVC: UIViewController {
+class LoginVC: UIViewController {
 
-    //outlets
-    @IBOutlet weak var loginBTN: UIButton!
+    
+    @IBOutlet weak var closePressed: UIButton!
     
     
-    
-    
-    
-    
+    @IBAction func closeBtnPressed(_ sender: Any) {
+        dismiss(animated: true, completion: nil)
+        
+    }
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        self.revealViewController().rearViewRevealWidth = self.view.frame.width - 60
         // Do any additional setup after loading the view.
     }
 
@@ -33,19 +32,6 @@ class ChannelVC: UIViewController {
     }
     
 
-    @IBAction func logInBtnPressed(_ sender: Any) {
-        
-        performSegue(withIdentifier: TO_LOGIN, sender: nil)
-        
-    }
-    
-    
-    
-    
-    
-    
-    
-    
     /*
     // MARK: - Navigation
 
