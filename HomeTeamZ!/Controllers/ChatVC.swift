@@ -14,6 +14,8 @@ class ChatVC: UIViewController {
     @IBOutlet weak var menuBtn: UIButton!
     
     
+    //ibaction
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
