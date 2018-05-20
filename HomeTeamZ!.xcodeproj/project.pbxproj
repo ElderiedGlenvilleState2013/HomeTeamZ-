@@ -20,6 +20,7 @@
 		DA8F55BD20AD1C1400D14EF5 /* ChatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA8F55BC20AD1C1400D14EF5 /* ChatVC.swift */; };
 		DA8F55BF20AD1C3500D14EF5 /* ChannelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA8F55BE20AD1C3500D14EF5 /* ChannelVC.swift */; };
 		DAD5DEBF20AA96BE00B842CC /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DAD5DEBD20AA96BE00B842CC /* SWRevealViewController.m */; };
+		DAF4CC3520B207B600CBAAC3 /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF4CC3420B207B600CBAAC3 /* RoundedButton.swift */; };
 		EEDD6697031A442FCFAD886E /* Pods_HomeTeamZ_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49670406E7D993B043692AC9 /* Pods_HomeTeamZ_.framework */; };
 /* End PBXBuildFile section */
 
@@ -44,6 +45,7 @@
 		DAD5DEBC20AA96BB00B842CC /* HomeTeamZ!-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HomeTeamZ!-Bridging-Header.h"; sourceTree = "<group>"; };
 		DAD5DEBD20AA96BE00B842CC /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
 		DAD5DEBE20AA96BE00B842CC /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		DAF4CC3420B207B600CBAAC3 /* RoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +97,7 @@
 			isa = PBXGroup;
 			children = (
 				DA5E82B520AE8BFF009B1C17 /* GradientView.swift */,
+				DAF4CC3420B207B600CBAAC3 /* RoundedButton.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -289,6 +292,7 @@
 				DA5E82B620AE8BFF009B1C17 /* GradientView.swift in Sources */,
 				DA81C11620AA8F5E00061E78 /* HomeTeamZ_.xcdatamodeld in Sources */,
 				DA4AC68F20B119CB00B989FB /* AuthServices.swift in Sources */,
+				DAF4CC3520B207B600CBAAC3 /* RoundedButton.swift in Sources */,
 				DA4AC68C20B0F18600B989FB /* CreateAccountVC.swift in Sources */,
 				DA4AC68220B0A59E00B989FB /* Constants.swift in Sources */,
 				DAD5DEBF20AA96BE00B842CC /* SWRevealViewController.m in Sources */,
