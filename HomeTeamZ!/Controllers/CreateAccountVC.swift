@@ -1,29 +1,27 @@
 //
-//  ChannelVC.swift
+//  CreateAccountVC.swift
 //  HomeTeamZ!
 //
-//  Created by McKinney family  on 5/16/18.
+//  Created by McKinney family  on 5/19/18.
 //  Copyright © 2018 FasTek Technologies. All rights reserved.
 //
 
 import UIKit
 
-class ChannelVC: UIViewController {
+class CreateAccountVC: UIViewController {
 
-    //outlets
-    @IBOutlet weak var loginBTN: UIButton!
-    
-    @IBAction func prepareForUnwind(segue: UIStoryboardSegue) {}
     
     
     
-    
+    @IBAction func closeBTN2(_ sender: Any) {
+        performSegue(withIdentifier: UNWIND, sender: nil)
+        
+    }
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        self.revealViewController().rearViewRevealWidth = self.view.frame.width - 60
         // Do any additional setup after loading the view.
     }
 
@@ -33,19 +31,6 @@ class ChannelVC: UIViewController {
     }
     
 
-    @IBAction func logInBtnPressed(_ sender: Any) {
-        
-        performSegue(withIdentifier: TO_LOGIN, sender: nil)
-        
-    }
-    
-    
-    
-    
-    
-    
-    
-    
     /*
     // MARK: - Navigation
 
